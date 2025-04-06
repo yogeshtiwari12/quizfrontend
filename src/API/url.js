@@ -1,0 +1,1 @@
+export const URL = "https://quiz-wiz-backend.onrender.com";

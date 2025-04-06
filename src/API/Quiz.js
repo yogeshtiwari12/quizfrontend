@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = "https://quizwiz-zxkp.onrender.com";
+import { URL } from "./url";
 export const QuizDetails = async (data) => {
   try {
     let res = await axios.post(`${URL}/getQuiz`, data);
